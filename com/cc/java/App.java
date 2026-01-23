@@ -17,6 +17,8 @@ public class App {
         Cat cat = new Cat();  // default - Konstruktor
         System.out.println(cat);
 
+        cat.sayHello();
+
     }
 
 }
