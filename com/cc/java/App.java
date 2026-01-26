@@ -15,11 +15,22 @@ public class App {
        */
 
         Cat cat = new Cat();  // default - Konstruktor
-        System.out.println(cat);
-
+        System.out.println("Blick von aussen: " + cat);
         cat.sayHello();
+        System.out.println("-------------------------------");
+
+        Cat cat2 = new Cat();  // default - Konstruktor
+        System.out.println("Blick von aussen: " + cat2);
+        cat2.sayHello();
+        System.out.println("-------------------------------");
+
+
 
     }
+
+
+
+    
 
 }
 
