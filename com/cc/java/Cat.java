@@ -6,9 +6,12 @@ public class Cat {
         // System.out.println("Meow");
         // --> Instanzvariable
         // System.out.println("Blick von innen: " + this);
-        
-        App.output("test2");
-    
+         App.output("Blick von innen: " + this);
     }
+
+   public Cat getInstanceVariable(){
+         return this;
+   }
+
 
 }

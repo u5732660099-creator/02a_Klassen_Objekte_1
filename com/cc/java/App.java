@@ -15,17 +15,16 @@ public class App {
        */
 
         Cat cat = new Cat();  // default - Konstruktor
-        System.out.println("Blick von aussen: " + cat);
-        cat.sayHello();
-        System.out.println("-------------------------------");
+        output("Blick von aussen: " + cat);
+        output("Blick von innen: " + cat.getInstanceVariable());
+        // cat.sayHello();
+        output("-------------------------------");
 
         Cat cat2 = new Cat();  // default - Konstruktor
-        System.out.println("Blick von aussen: " + cat2);
-        cat2.sayHello();
-        System.out.println("-------------------------------");
-
-        output("test");
-
+        output("Blick von aussen: " + cat2);
+        output("Blick von innen: " + cat2.getInstanceVariable());
+        // cat2.sayHello();
+        output("-------------------------------");
 
     }
 
