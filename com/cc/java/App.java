@@ -24,13 +24,16 @@ public class App {
         cat2.sayHello();
         System.out.println("-------------------------------");
 
+        output("test");
 
 
     }
 
-
-
-    
+    public static void output(String outputStr){
+        System.out.println(outputStr);
+    }
 
 }
+
+
 
